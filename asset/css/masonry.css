@@ -1,0 +1,164 @@
+/* grid-image-item
+------------------------- */
+
+.grid-image-item,
+.grid--images .grid-sizer { width: 33.33%; }
+
+.grid-image-item {
+  float: left;
+  position: relative;
+}
+
+.grid-image-item img {
+  display: block;
+}
+
+/* grid-item
+------------------------- */
+
+.grid-item {
+  width: 80px;
+  height: 60px;
+  float: left;
+  background: #D26;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width:  160px; }
+.grid-item--width3 { width:  240px; }
+
+.grid-item--height2 { height: 100px; }
+.grid-item--height3 { height: 140px; }
+.grid-item--height4 { height: 180px; }
+
+.grid-item--gigante {
+  width: 240px;
+  height: 180px;
+  background: #F90;
+  z-index: 2; /* keep it above other items */
+}
+
+/* ---- clickable ---- */
+
+.grid--clickable .grid-item:hover {
+  border-color: white;
+  background: #A2C;
+  cursor: pointer;
+}
+
+/* ---- fluid-5-col ---- */
+
+.grid--fluid-5-col .grid-sizer,
+.grid--fluid-5-col .grid-item { width: 20%; }
+
+.grid--fluid-5-col .grid-item--width2,
+.grid--fluid-5-col .grid-item--width3 {
+  width: 40%;
+}
+
+/* ---- gutter ---- */
+
+.grid--gutter .grid-item--width2 { width: 170px; }
+.grid--gutter .grid-item--width3 { width: 260px; }
+
+.grid--gutter-bottom .grid-item { margin-bottom: 10px; }
+
+/* ---- grid--fluid-gutter ---- */
+
+.grid--fluid-gutter .grid-item,
+.grid--fluid-gutter .grid-sizer {
+  width: 22%;
+}
+
+.grid--fluid-gutter .gutter-sizer {
+  width: 4%;
+}
+
+.grid--fluid-gutter .grid-item--width2,
+.grid--fluid-gutter .grid-item--width3 {
+  width: 48%;
+}
+/* grid-image-item
+------------------------- */
+
+.grid-image-item,
+.grid--images .grid-sizer { width: 33.33%; }
+
+.grid-image-item {
+  float: left;
+  position: relative;
+}
+
+.grid-image-item img {
+  display: block;
+}
+
+/* grid-item
+------------------------- */
+
+.grid-item {
+  width: 80px;
+  height: 60px;
+  float: left;
+  background: #D26;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width:  160px; }
+.grid-item--width3 { width:  240px; }
+
+.grid-item--height2 { height: 100px; }
+.grid-item--height3 { height: 140px; }
+.grid-item--height4 { height: 180px; }
+
+.grid-item--gigante {
+  width: 240px;
+  height: 180px;
+  background: #F90;
+  z-index: 2; /* keep it above other items */
+}
+
+/* ---- clickable ---- */
+
+.grid--clickable .grid-item:hover {
+  border-color: white;
+  background: #A2C;
+  cursor: pointer;
+}
+
+/* ---- fluid-5-col ---- */
+
+.grid--fluid-5-col .grid-sizer,
+.grid--fluid-5-col .grid-item { width: 20%; }
+
+.grid--fluid-5-col .grid-item--width2,
+.grid--fluid-5-col .grid-item--width3 {
+  width: 40%;
+}
+
+/* ---- gutter ---- */
+
+.grid--gutter .grid-item--width2 { width: 170px; }
+.grid--gutter .grid-item--width3 { width: 260px; }
+
+.grid--gutter-bottom .grid-item { margin-bottom: 10px; }
+
+/* ---- grid--fluid-gutter ---- */
+
+.grid--fluid-gutter .grid-item,
+.grid--fluid-gutter .grid-sizer {
+  width: 22%;
+}
+
+.grid--fluid-gutter .gutter-sizer {
+  width: 4%;
+}
+
+.grid--fluid-gutter .grid-item--width2,
+.grid--fluid-gutter .grid-item--width3 {
+  width: 48%;
+}
